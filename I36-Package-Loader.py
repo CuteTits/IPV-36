@@ -20,6 +20,8 @@ if __name__ == "__main__":
         "ping3",
         "requests",
         "speedtest",
+        "pythonping",
+        "ipwhois",
 
 "cryptography.hazmat.primitives.asymmetric",
 "pymobiledevice3.cli.remote",
@@ -35,6 +37,7 @@ if __name__ == "__main__":
 
     try:
         install_packages(required_packages)
+
         print("All packages installed successfully.")
     except Exception as e:
         print("An error occurred during installation:", e)
