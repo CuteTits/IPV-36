@@ -1,2 +1,0 @@
-# astraea
-python
